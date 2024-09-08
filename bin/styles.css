@@ -1,0 +1,59 @@
+
+
+.root {
+    -fx-font-family: "Arial";
+    -fx-padding: 10;
+    -fx-background-color: #f5f5f5;
+}
+
+.text-field {
+    -fx-font-size: 14px;
+    -fx-border-color: #333;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.add-button {
+    -fx-background-color: #4CAF50; 
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+}
+
+.edit-button {
+    -fx-background-color: #2196F3; 
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+}
+
+.delete-button {
+    -fx-background-color: #f44336; 
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+}
+
+.button:hover {
+    -fx-opacity: 0.8;
+}
+
+.list-view {
+    -fx-background-color: white;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 5px;
+}
+
+.list-cell {
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-background-color: white;
+    -fx-border-color: transparent;
+}
+
+.list-cell:selected {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+}
+
+
