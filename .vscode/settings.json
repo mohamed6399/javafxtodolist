@@ -11,6 +11,7 @@
         "/Users/malcome/javafx-sdk-22.0.2/lib/javafx.controls.jar",
         "/Users/malcome/javafx-sdk-22.0.2/lib/javafx.base.jar",
         "/Users/malcome/javafx-sdk-22.0.2/lib/javafx-swt.jar",
-        "/Users/malcome/Downloads/mysql-connector-j-8.0.31.jar"
+        "/Users/malcome/Downloads/mysql-connector-j-8.0.31.jar",
+        "/Users/malcome/Downloads/junit-jupiter-api-5.8.1.jar"
     ]
 }

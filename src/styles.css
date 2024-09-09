@@ -1,51 +1,5 @@
 /* styles.css */
 
-/*.root {
-    font-family: "Arial";
-    padding: 10;
-    background-color: #f5f5f5;
-}
-
-.text-field {
-    font-size: 14px;
-    border-color: #333;
-    border-radius: 5px;
-    padding: 5px;
-}
-
-.button {
-    font-size: 14px;
-    background-color: #4CAF50;
-    -fx-text-fill: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border-color: transparent;
-}
-
-.button:hover {
-    background-color: #45a049;
-}
-
-.list-view {
-    background-color: white;
-    border-color: #ddd;
-    border-radius: 5px;
-}
-
-.list-cell {
-    font-size: 14px;
-    padding: 10px;
-    background-color: white;
-    border-color: transparent;
-}
-
-.list-cell:selected {
-    background-color: #4CAF50;
-    -fx-text-fill: white;
-}*/
-
-/* styles.css */
-
 .root {
     -fx-font-family: "Arial";
     -fx-padding: 10;
@@ -59,17 +13,29 @@
     -fx-padding: 5px;
 }
 
-.button {
-    -fx-font-size: 14px;
-    -fx-background-color: #4CAF50;
+.add-button {
+    -fx-background-color: #4CAF50; /* Bleu */
     -fx-text-fill: white;
     -fx-padding: 10px 20px;
     -fx-border-radius: 5px;
-    -fx-border-color: transparent;
+}
+
+.edit-button {
+    -fx-background-color: #2196F3; /* Bleu */
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+}
+
+.delete-button {
+    -fx-background-color: #f44336; /* Rouge */
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
 }
 
 .button:hover {
-    -fx-background-color: #45a049;
+    -fx-opacity: 0.8;
 }
 
 .list-view {
@@ -89,5 +55,3 @@
     -fx-background-color: #4CAF50;
     -fx-text-fill: white;
 }
-
-
